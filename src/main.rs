@@ -30,7 +30,7 @@ fn build_ui(app: &Application) {
     let input_label = Label::new(Some("Midi input"));
 
     let input_dropdown = DropDown::builder().build();
-    
+
     let output = TextView::builder()
         .monospace(true)
         .width_request(TEXTAREA_WIDTH)
